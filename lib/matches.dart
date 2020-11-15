@@ -577,7 +577,7 @@ class _matchesState extends State<matches> with SingleTickerProviderStateMixin {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            leaguedetails[index].childern[0].firstTeam,
+                            leaguedetails[index].childern[0].firstTeam.tr,
                             style: content,
                           ),
                           Container(
@@ -591,7 +591,7 @@ class _matchesState extends State<matches> with SingleTickerProviderStateMixin {
                           ),
                           Center(
                               child: Text(
-                            leaguedetails[index].childern[0].time,
+                            leaguedetails[index].childern[0].time.tr,
                             style: content,
                           )),
                           SizedBox(width: 12),
@@ -602,7 +602,7 @@ class _matchesState extends State<matches> with SingleTickerProviderStateMixin {
                                 leaguedetails[index].childern[0].urlSecond),
                           ),
                           Text(
-                            leaguedetails[index].childern[0].seconTeam,
+                            leaguedetails[index].childern[0].seconTeam.tr,
                             style: content,
                           ),
                         ],

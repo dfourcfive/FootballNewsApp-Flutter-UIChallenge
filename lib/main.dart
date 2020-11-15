@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
         locale: LocalizationService.locale,
         fallbackLocale: LocalizationService.fallbackLocale,
         translations: LocalizationService(),
-        title: ' EPLWORLD',
+        title: ' EPLWORLD ',
         theme: _light ? _themeDatalight : _themeDataDark,
         home: MyHomePage(title: 'FotMob'),
         routes: <String, WidgetBuilder>{

@@ -188,18 +188,18 @@ class _LeaguesState extends State<Leagues> with SingleTickerProviderStateMixin {
 }
 
 class MyTile {
-  String title.tr;
+  String title;
   String img;
   List<MyTile> childern;
   MyTile(this.title, this.img, [this.childern = const <MyTile>[]]);
 }
 
 List<MyTile> listOfTiles = <MyTile>[
-  new MyTile("egypte".tr, '', <MyTile>[
+  new MyTile('egypte'.tr, '', <MyTile>[
     new MyTile("aa".tr, "assets/12.jpg"),
     new MyTile("aab".tr, "assets/12.jpg")
   ]),
-  new MyTile("inter".tr, '', <MyTile>[
+  new MyTile('inter'.tr, '', <MyTile>[
     new MyTile("ber".tr, "assets/12.jpg"),
     new MyTile("rm".tr, "assets/12.jpg")
   ]),
@@ -271,7 +271,7 @@ class StuffInTiles extends StatelessWidget {
         initiallyExpanded: false,
         key: new PageStorageKey<MyTile>(t),
         title: new Text(
-          t.title.tr,
+          t.title,
           style: content,
         ),
         leading: Container(
