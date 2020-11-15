@@ -36,11 +36,13 @@ class _homeState extends State<home> {
     Favourites(),
     More(),
   ];
+  final locale = Get.locale.countryCode;
 
   @override
   Widget build(BuildContext context) {
+    print('heeerrree');
     return Directionality(
-      textDirection: TextDirection.rtl,
+      textDirection: locale == 'US' ? TextDirection.rtl : TextDirection.ltr,
       child: new Scaffold(
         body: PageView(
           controller: _pageController,

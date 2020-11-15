@@ -188,20 +188,20 @@ class _LeaguesState extends State<Leagues> with SingleTickerProviderStateMixin {
 }
 
 class MyTile {
-  String title;
+  String title.tr;
   String img;
   List<MyTile> childern;
   MyTile(this.title, this.img, [this.childern = const <MyTile>[]]);
 }
 
 List<MyTile> listOfTiles = <MyTile>[
-  new MyTile('مصر'.tr, '', <MyTile>[
-    new MyTile("الدوري المصري الممتاز".tr, "assets/12.jpg"),
-    new MyTile("الدوري المصري درجه تانيه".tr, "assets/12.jpg")
+  new MyTile("egypte".tr, '', <MyTile>[
+    new MyTile("aa".tr, "assets/12.jpg"),
+    new MyTile("aab".tr, "assets/12.jpg")
   ]),
-  new MyTile('دولي -المتخبات الوطنية'.tr, '', <MyTile>[
-    new MyTile("برشلونه".tr, "assets/12.jpg"),
-    new MyTile("ربال مدريد".tr, "assets/12.jpg")
+  new MyTile("inter".tr, '', <MyTile>[
+    new MyTile("ber".tr, "assets/12.jpg"),
+    new MyTile("rm".tr, "assets/12.jpg")
   ]),
   new MyTile('الجزائر'.tr, '', <MyTile>[
     new MyTile("الدوري الممتاز".tr, "assets/12.jpg"),
@@ -232,7 +232,7 @@ List<MyTile> listOfTiles = <MyTile>[
     new MyTile("الدرجه الثانيه".tr, "assets/12.jpg"),
     new MyTile("الدرجه الثانيه".tr, "assets/12.jpg")
   ]),
-  new MyTile('أستونيا'.tr, '', <MyTile>[
+  new MyTile("أستونيا".tr, '', <MyTile>[
     new MyTile("الدوري الدرجه الاولي".tr, "assets/12.jpg"),
     new MyTile("الدرجه الثانيه".tr, "assets/12.jpg"),
     new MyTile("الدرجه الثانيه".tr, "assets/12.jpg"),
@@ -255,7 +255,7 @@ class StuffInTiles extends StatelessWidget {
         padding: const EdgeInsets.only(right: 45),
         child: new ListTile(
           title: Text(
-            t.title,
+            t.title.tr,
             style: content,
           ),
           leading: Container(height: 35, width: 35, child: Image.asset(t.img)),
@@ -271,7 +271,7 @@ class StuffInTiles extends StatelessWidget {
         initiallyExpanded: false,
         key: new PageStorageKey<MyTile>(t),
         title: new Text(
-          t.title,
+          t.title.tr,
           style: content,
         ),
         leading: Container(

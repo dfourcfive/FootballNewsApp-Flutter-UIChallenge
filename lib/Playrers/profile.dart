@@ -160,7 +160,7 @@ class _profileState extends State<profile> {
                                 )),
                               ),
                               Text(
-                                "تقييم",
+                                "تقييم".tr,
                                 style: _textStyle,
                               ),
                             ],

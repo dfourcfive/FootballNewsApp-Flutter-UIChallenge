@@ -144,7 +144,7 @@ class _matchesForTeamState extends State<matchesForTeam> {
                                       child: Image.asset("assets/541.jpg"),
                                     ),
                                     Text(
-                                      "ريال مدريد",
+                                      "ريال مدريد".tr,
                                       style: content,
                                     ),
                                   ],

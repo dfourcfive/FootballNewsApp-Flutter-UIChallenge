@@ -58,7 +58,7 @@ class _overViewState extends State<overView> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             Text(
-                              "غدا",
+                              "غدا".tr,
                               style: content2,
                             ),
                             Padding(
@@ -104,7 +104,7 @@ class _overViewState extends State<overView> {
                               ),
                               Center(
                                   child: Text(
-                                "3:30 م",
+                                "3:30".tr,
                                 style: content,
                               )),
                               SizedBox(width: 6),

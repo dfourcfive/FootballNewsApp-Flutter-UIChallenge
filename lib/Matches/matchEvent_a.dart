@@ -591,7 +591,7 @@ class _MatchEvent_aState extends State<MatchEvent_a> {
                                     padding: const EdgeInsets.all(10.0),
                                     child: Row(
                                       children: <Widget>[
-                                        Text("هل يسجل الفريقان نتائج؟",
+                                        Text("هل يسجل الفريقان نتائج؟".tr,
                                             style: head)
                                       ],
                                     ),
@@ -714,7 +714,8 @@ class _MatchEvent_aState extends State<MatchEvent_a> {
                                       width: MediaQuery.of(context).size.width *
                                           0.9,
                                       child: Text(
-                                        "ريال مدريد معدل 1 اهداف في اخر 3 مقابلات،وا اتليتكو لديه معدل 0.67",
+                                        "ريال مدريد معدل 1 اهداف في اخر 3 مقابلات،وا اتليتكو لديه معدل 0.67"
+                                            .tr,
                                         style: content,
                                         overflow: TextOverflow.visible,
                                       )),
@@ -861,7 +862,7 @@ class _MatchEvent_aState extends State<MatchEvent_a> {
                                     style: head,
                                   ),
                                   Text(
-                                    " لم يتعادل في اخر  8 مقابلات".tr,
+                                    "لم يتعادل في اخر  8 مقابلات".tr,
                                     style: content,
                                   ),
                                 ]),
@@ -1065,7 +1066,7 @@ class _MatchEvent_aState extends State<MatchEvent_a> {
                       Column(
                         children: <Widget>[
                           Row(
-                            children: <Widget>[Text("مارسيلو( 0 - 1)".tr)],
+                            children: <Widget>[Text("marcelo1".tr)],
                           ),
                           Row(
                             children: <Widget>[
@@ -1105,7 +1106,7 @@ class _MatchEvent_aState extends State<MatchEvent_a> {
                       Column(
                         children: <Widget>[
                           Row(
-                            children: <Widget>[Text("مارسيلو( 0 - 1 )".tr)],
+                            children: <Widget>[Text("marcelo1".tr)],
                           ),
                           Row(
                             children: <Widget>[

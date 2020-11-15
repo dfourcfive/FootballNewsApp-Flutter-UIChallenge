@@ -1954,8 +1954,8 @@ class _matchInfo_aState extends State<matchInfo_a>
                           child: Padding(
                             padding: const EdgeInsets.only(bottom: 25),
                             child: Text(
-                              "Attempt missed. pau Victor (GRIONA)right footed shot from outside"
-                              " the box is close,but missed to the right.Assisted by Enric Franquesa",
+                              "Attempt missed. pau Victor (GRIONA)right footed shot from outside the box is close,but missed to the right.Assisted by Enric Franquesa"
+                                  .tr,
                               overflow: TextOverflow.visible,
                             ),
                           ),

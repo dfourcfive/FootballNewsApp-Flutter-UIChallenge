@@ -41,17 +41,17 @@ List<LeagueDetails> leaguedetails = <LeagueDetails>[
   new LeagueDetails(
     l1,
     <LeagueDetails1>[
-      new LeagueDetails1('ريال مدريد'.tr, 'اتليتكو'.tr, 'assets/11.jpg',
-          'assets/530.jpg', "9:45م".tr),
-      new LeagueDetails1('ريال مدريد'.tr, 'اتليتكو'.tr, 'assets/11.jpg',
-          'assets/530.jpg', "9:45م".tr),
+      new LeagueDetails1(
+          'a'.tr, 'b'.tr, 'assets/11.jpg', 'assets/530.jpg', "9:45م".tr),
+      new LeagueDetails1(
+          'a'.tr, 'b'.tr, 'assets/11.jpg', 'assets/530.jpg', "9:45م".tr),
     ],
   ),
   new LeagueDetails(
     l2,
     <LeagueDetails1>[
-      new LeagueDetails1('ريال مدريد'.tr, 'اتليتكو'.tr, 'assets/11.jpg',
-          'assets/530.jpg', "9:45م".tr),
+      new LeagueDetails1(
+          'a'.tr, 'b'.tr, 'assets/11.jpg', 'assets/530.jpg', "9:45م".tr),
     ],
   ),
 ];

@@ -12,10 +12,10 @@ import 'package:get/get.dart';
 class matches extends StatefulWidget {
   @override
   _matchesState createState() => _matchesState([
-        LeagueN("AustrliaPremierLeague", "assets/12.jpg", true),
-        LeagueN("AustrliaPremierLeague", "assets/12.jpg", true),
-        LeagueN("CandaPremierLeague", "assets/12.jpg", true),
-        LeagueN("ChinePremierLeague", "assets/12.jpg", true)
+        LeagueN("AustrliaPremierLeague".tr, "assets/12.jpg", true),
+        LeagueN("AustrliaPremierLeague".tr, "assets/12.jpg", true),
+        LeagueN("CanadaPremierLeague".tr, "assets/12.jpg", true),
+        LeagueN("ChinaPremierLeague".tr, "assets/12.jpg", true)
       ]);
 }
 
@@ -519,7 +519,7 @@ class _matchesState extends State<matches> with SingleTickerProviderStateMixin {
                 width: 10,
               ),
               Text(
-                leaguen[index].leagueName,
+                leaguen[index].leagueName.tr,
                 style: headline,
               )
             ],

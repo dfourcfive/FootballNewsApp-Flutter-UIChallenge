@@ -33,7 +33,7 @@ class _cupsState extends State<cups> {
                           Column(
                             children: <Widget>[
                               Text(
-                                "LaLiga",
+                                "LaLiga".tr,
                                 style: TextStyle(
                                     fontSize: 17, fontWeight: FontWeight.w500),
                               ),
@@ -51,7 +51,7 @@ class _cupsState extends State<cups> {
                       Row(
                         children: <Widget>[
                           Text(
-                            "الفائز (34)",
+                            "winner (34)".tr,
                             style: TextStyle(color: Colors.grey),
                           )
                         ],
@@ -133,7 +133,7 @@ class _cupsState extends State<cups> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
                               Text(
-                                "Champions League",
+                                "Champions League".tr,
                                 style: TextStyle(
                                     fontSize: 17, fontWeight: FontWeight.w500),
                               ),

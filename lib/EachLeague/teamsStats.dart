@@ -142,7 +142,7 @@ class _teamsStatsState extends State<teamsStats> {
                                 SizedBox(
                                   width: 5,
                                 ),
-                                Text("ريال مدريد")
+                                Text("ريال مدريد".tr)
                               ]),
                               Text(
                                 "2.75",
