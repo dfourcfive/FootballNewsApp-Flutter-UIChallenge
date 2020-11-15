@@ -330,5 +330,6 @@ const Map<String, String> enUS = {
   'aab': 'Egyptian Second League',
   'inter': 'International teams',
   'ber': 'Barcelona',
+  'ابرز التحويلات': 'latest transitions',
   'rm': 'Real Madrid',
 };

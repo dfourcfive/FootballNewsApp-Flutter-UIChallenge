@@ -195,48 +195,48 @@ class MyTile {
 }
 
 List<MyTile> listOfTiles = <MyTile>[
-  new MyTile('egypte'.tr, '', <MyTile>[
-    new MyTile("aa".tr, "assets/12.jpg"),
-    new MyTile("aab".tr, "assets/12.jpg")
+  new MyTile('egypte', '', <MyTile>[
+    new MyTile("aa", "assets/12.jpg"),
+    new MyTile("aab", "assets/12.jpg")
   ]),
-  new MyTile('inter'.tr, '', <MyTile>[
-    new MyTile("ber".tr, "assets/12.jpg"),
-    new MyTile("rm".tr, "assets/12.jpg")
+  new MyTile('inter', '', <MyTile>[
+    new MyTile("ber", "assets/12.jpg"),
+    new MyTile("rm", "assets/12.jpg")
   ]),
-  new MyTile('الجزائر'.tr, '', <MyTile>[
-    new MyTile("الدوري الممتاز".tr, "assets/12.jpg"),
-    new MyTile("الدرجه التانيه".tr, "assets/12.jpg")
+  new MyTile('الجزائر', '', <MyTile>[
+    new MyTile('الدوري الممتاز', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg")
   ]),
-  new MyTile('استراليا'.tr, '', <MyTile>[
-    new MyTile("الدوري الممتاز".tr, "assets/12.jpg"),
-    new MyTile("الدرجه التانيه".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg")
+  new MyTile('استراليا', '', <MyTile>[
+    new MyTile('الدوري الممتاز', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg")
   ]),
-  new MyTile('الارجنتين'.tr, '', <MyTile>[
-    new MyTile("الدوري الدرجه الاولي".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg")
+  new MyTile('الارجنتين', '', <MyTile>[
+    new MyTile('الدوري الدرجه الاولي', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg")
   ]),
-  new MyTile('السعودية'.tr, '', <MyTile>[
-    new MyTile("الدوري الدرجه الاولي".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg")
+  new MyTile('السعودية', '', <MyTile>[
+    new MyTile('الدوري الدرجه الاولي', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg")
   ]),
-  new MyTile('اسبانيا'.tr, '', <MyTile>[
-    new MyTile("الدوري الدرجه الاولي ", "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg")
+  new MyTile('اسبانيا', '', <MyTile>[
+    new MyTile("الدوري الدرجه الاولي", "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg")
   ]),
-  new MyTile('استراليا'.tr, '', <MyTile>[
-    new MyTile("الدوري الدرجه الاولي".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg")
+  new MyTile('استراليا', '', <MyTile>[
+    new MyTile('الدوري الدرجه الاولي', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg")
   ]),
-  new MyTile("أستونيا".tr, '', <MyTile>[
-    new MyTile("الدوري الدرجه الاولي".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg"),
-    new MyTile("الدرجه الثانيه".tr, "assets/12.jpg")
+  new MyTile('أستونيا', '', <MyTile>[
+    new MyTile('الدوري الدرجه الاولي', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg"),
+    new MyTile('الدرجه التانيه', "assets/12.jpg")
   ]),
 ];
 
@@ -255,7 +255,7 @@ class StuffInTiles extends StatelessWidget {
         padding: const EdgeInsets.only(right: 45),
         child: new ListTile(
           title: Text(
-            t.title.tr,
+            t.title.toString().tr,
             style: content,
           ),
           leading: Container(height: 35, width: 35, child: Image.asset(t.img)),
@@ -271,7 +271,7 @@ class StuffInTiles extends StatelessWidget {
         initiallyExpanded: false,
         key: new PageStorageKey<MyTile>(t),
         title: new Text(
-          t.title,
+          t.title.toString().tr,
           style: content,
         ),
         leading: Container(

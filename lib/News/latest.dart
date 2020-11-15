@@ -54,7 +54,7 @@ class _latestState extends State<latest> {
                           Padding(
                             padding: const EdgeInsets.only(left: 15, right: 15),
                             child: Text(
-                              trend[index].text,
+                              trend[index].text.toString().tr,
                               style: TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.w500),
                             ),
